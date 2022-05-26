@@ -87,7 +87,7 @@ header {
 
 .section-two {
     text-align: center;
-    padding: 0em 15em;
+    padding: 0em 15em 5em;
 }
 
 .section-two > p {
@@ -114,5 +114,19 @@ header {
 /* Section three in HTML */
 
 .section-three {
-    background-color: grey;
+    background-color: #E5E7EB;
+    padding: 4em 22em;
+}
+
+#section-three-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+
+#section-three-author {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: end;
 }
