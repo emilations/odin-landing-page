@@ -103,13 +103,11 @@ header {
     padding: 0 9em;
 }
 
-
 .box {
     border: solid 3px #3882F6;
     border-radius: 15px;
     height: 8em;
 }
-
 
 /* Section three in HTML */
 
@@ -129,4 +127,47 @@ header {
     font-weight: 700;
     font-size: 18px;
     text-align: end;
+}
+
+/* Section four in HTML */
+
+.section-four {
+    margin: 4em 15em;
+    padding: 0;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
+
+.four-left-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.four-buttons {
+    display: flex;
+    align-content: center;
+}
+
+.four-buttons > button {
+    border: solid 3px white;
+    margin: 0%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.four-left-elements > p{
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.four-left-elements p:first-child{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.four-left-elements p:last-child{
+    font-size: 18px;
 }
