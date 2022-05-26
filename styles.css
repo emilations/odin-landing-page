@@ -34,7 +34,8 @@ header {
 }
 
 /* Section one in HTML */
- .section-one {
+ 
+.section-one {
     padding-top: 10em;
     background-color: #1F2937;
     padding: 4em 15em;
@@ -82,3 +83,36 @@ header {
     color: white;
  }
 
+ /* Section two in HTML */
+
+.section-two {
+    text-align: center;
+    padding: 0em 15em;
+}
+
+.section-two > p {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 0 9em;
+}
+
+
+.box {
+    border: solid 3px #3882F6;
+    border-radius: 15px;
+    height: 8em;
+}
+
+
+/* Section three in HTML */
+
+.section-three {
+    background-color: grey;
+}
