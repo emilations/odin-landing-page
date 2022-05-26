@@ -138,6 +138,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 2em 1em;
+    border-radius: 5px;
 }
 
 .four-left-elements {
